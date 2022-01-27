@@ -1,0 +1,648 @@
+<!doctype html>
+<html lang="ru">
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Мгновенный прием платежей на сайте | PROkassa</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css"> 
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="css/main.css">
+  <script src="js/jquery-2.2.4.min.js" type="text/javascript"></script>
+</head>
+<body>
+<header class="header" id="header">
+  <div class="container">
+    <div class="row align-items-center ">
+      <div class="col-lg-9 d-flex align-items-center">
+        <a href="#" class="logo">
+          <img src="img/logo.png" alt="PROkassa">
+        </a>
+        <ul class="header__menu d-flex ml-3">
+          <li><a href="#advantages" class="go"><div></div>Преимущества</a></li>
+          <li><a href="#services" class="go"><div></div>Услуги</a></li>
+          <li><a href="#percent" class="go"><div></div>Процентная ставка</a></li>
+          <li><a href="#work" class="go"><div></div>Как это работает</a></li>
+          <li><a href="#faq" class="go"><div></div>FAQ</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-3 text-right ml-auto">
+        <button type="button" class="btn btn-3" data-toggle="modal" data-target="#authorization">Вход</button>
+        <button type="button" class="btn btn-1 ml-2" data-toggle="modal" data-target="#registration">Регистрация</button>
+        <!-- <a href="#" class="btn btn-3">Вход</a> -->
+        <!-- <a href="#" class="btn btn-1 ml-2">Регистрация</a> -->
+      </div>
+    </div>
+  </div>
+</header>
+<header class="header-mobile">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <nav class="mobile-menu">
+          <a href="#" class="logo">
+            <img src="img/logo-m.png" alt="PROkassa">
+          </a>
+          <input type="checkbox" id="checkbox-menu" class="mobile-menu__checkbox">
+          <label for="checkbox-menu" class="mobile-menu__btn"><div class="mobile-menu__icon"></div></label>
+          <div class="mobile-menu__container">
+            <ul class="mobile-menu__list">
+                <li class="mobile-menu__item"><a href="#advantages" class="mobile-menu__link">Преимущества</a></li>
+                <li class="mobile-menu__item"><a href="#services" class="mobile-menu__link">Услуги</a></li>
+                <li class="mobile-menu__item"><a href="#percent" class="mobile-menu__link">Процентаная ставка</a></li>
+                <li class="mobile-menu__item"><a href="#work" class="mobile-menu__link">Как это работает</a></li>
+                <li class="mobile-menu__item"><a href="#faq" class="mobile-menu__link">FAQ</a></li>
+                <div class="col-lg-3 text-right ml-auto header-mobile__btns mt-5">
+                  <button type="button" class="btn btn-3" data-toggle="modal" data-target="#authorization">Вход</button>
+                  <button type="button" class="btn btn-1 mt-3" data-toggle="modal" data-target="#registration">Регистрация</button>
+                </div>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </div>
+</header>
+<section class="main">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-7">
+        <h1>Мгновенный прием платежей на сайте</h1>
+        <p>+ партнерская программа</p>
+        <div class="main__btn">
+          <a href="#" class="btn btn-2">Попробовать</a>
+        </div>
+      </div>
+      <img src="img/main.png" alt="PROkassa" class="main__img">
+      <img src="img/main-m.png" alt="PROkassa" class="main__img_m">
+    </div>
+  </div>
+</section>
+<section class="program">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <h2>Партнерская программа для вас и вашего бизнеса</h2>
+      </div>
+      <div class="col-lg-7">
+        <p>Мы предлагаем нашим партнерам уникальные условия: процент с каждой операции, которую совершит привлеченный пользователь – будь то входящих банковский платеж для пополнения кошелька ePayService или моментальный перевод внутри системы.</p>
+      </div>
+      <div class="col-lg-5">
+        <p class="mr-2">Получайте регулярные вознаграждения за привлечённых пользователей в платежную систему ePay</p>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="advantages" id="advantages">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4 mb-5 pb-3">
+        <div class="advantages__block">
+          <div class="advantages__block_img">
+            <img src="img/i1.png" alt="Adv 1">
+          </div>
+          <h3>Пожизненная комиссия</h3>
+          <p>Выгодное агентское вознаграждение на протяжении всего времени работы клиента.</p>
+        </div>
+      </div>
+      <div class="col-lg-4 mb-5 pb-3">
+        <div class="advantages__block">
+          <div class="advantages__block_img">
+            <img src="img/i2.png" alt="Adv 2">
+          </div>
+          <h3>Ежемесечная отчетность</h3>
+          <p>Доступ к подробной отчетности о совершенных на стороне клиента платежах.</p>
+        </div>
+      </div>
+      <div class="col-lg-4 mb-5 pb-3">
+        <div class="advantages__block">
+          <div class="advantages__block_img">
+            <img src="img/i3.png" alt="Adv 3">
+          </div>
+          <h3>Индивидуальный подход</h3>
+          <p>Решение всех вопросов с персональным партнерским менеджером.</p>
+        </div>
+      </div>
+      <div class="col-lg-4 mb-5 pb-3">
+        <div class="advantages__block">
+          <div class="advantages__block_img">
+            <img src="img/i4.png" alt="Adv 4">
+          </div>
+          <h3>Широкая география</h3>
+          <p>За счет широкой географии платежных методов ECOMMPAY, клиенты партнера получают необходимый сервис вне зависимости от местоположения.</p>
+        </div>
+      </div>
+      <div class="col-lg-4 mb-5 pb-3">
+        <div class="advantages__block">
+          <div class="advantages__block_img">
+            <img src="img/i5.png" alt="Adv 5">
+          </div>
+          <h3>Высокий заработок</h3>
+          <p>Размер агентского вознаграждения партнера зависит от формата взаимодействия с клиентом и рассчитывается в индивидуальном порядке.</p>
+        </div>
+      </div>
+      <div class="col-lg-4 mb-5 pb-3">
+        <div class="advantages__block">
+          <div class="advantages__block_img">
+            <img src="img/i6.png" alt="Adv 6">
+          </div>
+          <h3>Надежное партнерство</h3>
+          <p>ECOMMPAY является экспертом в сфере платежных решений, гарантируя высокое качество обслуживания приведенных вами клиентов.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="about">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h2>У нас <br>зарабатывают! </h2>
+      </div>
+      <div class="col-12 text-center">
+        <img src="img/about.png" alt="about" class="w-100 about__img">
+      </div>
+      <div class="col-12">
+        <div class="about__block mb-4 mt-4">
+          <p class="about__block_title">20к</p>
+          <p>Выгодное агентское вознаграждение на протяжении всего времени работы клиента.</p>
+        </div>
+        <div class="about__block mb-4">
+          <p class="about__block_title">32к</p>
+          <p>Выгодное агентское вознаграждение на протяжении всего времени работы.</p>
+        </div>
+        <div class="about__block mb-4">
+          <p class="about__block_title">79%</p>
+          <p>Решение всех вопросов с персональным партнерским менеджером.</p>
+        </div>
+        <img src="img/about-m.png" alt="about" class="about-m__img">
+      </div>
+    </div>
+  </div>
+</section>
+<section class="services" id="services">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4">
+        <h2>Услуги <br>для партнеров</h2>
+        <p class="services__exc">Лучшие <br>условия!</p>
+        <p class="services__exc-m">Лучшие условия!</p>
+      </div>
+      <div class="col-lg-4">
+        <ul>
+          <li class="d-flex"><span>Быстрое и простое подключение</span></li>
+          <li class="d-flex"><span>Четкость и оперативность выплат</span></li>
+          <li class="d-flex"><span>Подробная статистика</span></li>
+          <li class="d-flex"><span>Круглосуточная тех. поддержка</span></li>
+          <li class="d-flex"><span>Личный кабинет</span></li>
+          <li class="d-flex"><span>Кастомизированные платежные решения</span></li>
+        </ul>
+      </div>
+      <div class="col-lg-4">
+        <ul>
+          <li class="d-flex"><span>Каскадинг и маршрутизация платежей</span></li>
+          <li class="d-flex"><span>Оплата в один клик</span></li>
+          <li class="d-flex"><span>Более 100 методов оплаты</span></li>
+          <li class="d-flex"><span>Адаптивная платежная страница</span></li>
+          <li class="d-flex"><span>Большой выбор банков-партнеров</span></li>
+          <li class="d-flex"><span>Эффективные технологии по борьбе с мошенничеством</span></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="percent" id="percent">
+  <div class="container">
+    <div class="row">
+      <div class="offset-lg-1 col-lg-5">
+        <div class="percent__img">
+          <img src="img/percent.png" alt="percent" class="percent__img_d">
+          <img src="img/percent-m.png" alt="percent" class="percent__img_m">
+          <div class="percent__img_block"></div>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="percent__block">
+          <span>10%</span>
+          <h2>Комиссия сервиса</h2>
+          <p>Привлекайте новых пользователей, используя вашу реферальную ссылку</p>
+        </div>
+        <div class="percent__block">
+          <span>90%</span>
+          <h2>Стать партнером</h2>
+          <p>Привлекайте новых пользователей, используя вашу реферальную ссылку</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="cabinet" id="cabinet">
+  <div class="container">
+    <div class="cabinet__block"></div>
+    <img src="img/cabinet.png" alt="cabinet" class="cabinet__img">
+    <div class="row">
+      <div class="col-lg-9">
+        <div class="cabinet__bg">
+          <h2>Личный кабинет</h2>
+          <ul class="ml-3">
+            <li><span>В личном кабинете собраны все основные показатели: текущий баланс, последние операции и уведомления</span></li>
+            <li><span>Подробная аналитика за любой период по всем привлеченным магазинам</span></li>
+            <li><span>Вся история событий в хронологическом порядке доступна в любой момент</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="work" id="work">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h2>Как это работает?</h2>
+        <p class="work__secondary-title">Партнерам</p>
+      </div>
+      <div class="col-lg-3">
+        <div class="work__block">
+          <span>1</span>
+          <p><b>Зарегистрируйтесь.</b> <br>Это займет всего 1 минуту</p>
+        </div>
+      </div>
+      <div class="col-lg-3">
+        <div class="work__block">
+          <span>2</span>
+          <p><b>Выберете кабинет партнера,</b> если у вас нет сайтов, но вы умею пиарить их и находить новых клиентов</p>
+        </div>
+      </div>
+      <div class="col-lg-3">
+        <div class="work__block">
+          <span>3</span>
+          <p><b>Выберете любой сайт каталоге</b> из представленных</p>
+        </div>
+      </div>
+      <div class="col-lg-3">
+        <div class="work__block">
+          <span>4</span>
+          <p><b>Получайте до 90% от платежей привлеченных клиентов</b></p>
+        </div>
+      </div>
+      <div class="col-12">
+        <p class="work__secondary-title develop">Разработчикам</p>
+      </div>
+      <div class="col-lg-3">
+        <div class="work__block">
+          <span>1</span>
+          <p><b>Зарегистрируйтесь.</b> <br>Это займет всего 1 минуту</p>
+        </div>
+      </div>
+      <div class="col-lg-3">
+        <div class="work__block">
+          <span>2</span>
+          <p><b>Выберете кабинет разработчика,</b> если у вас есть сайты, на которые нужно подключить прием платежей</p>
+        </div>
+      </div>
+      <div class="col-lg-3">
+        <div class="work__block">
+          <span>3</span>
+          <p><b>Подключай свой сайт к пп</b></p>
+        </div>
+      </div>
+      <div class="col-lg-3">
+        <div class="work__block">
+          <span>4</span>
+          <p><b>Отдаете 10% комиссии сервису, получаете 90% чистой прибыли</b></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="baner">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <p>Время получать деньги! <br>Становись партнером</p>
+        <div class="baner__btn">
+          <a href="#" class="btn btn-1">Хочу зарабатывать!</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="faq" id="faq">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 m-auto">
+        <div id="accordion">
+          <div class="card">
+            <div class="card-header" id="heading-1">
+              <h5 class="mb-0">
+                <button class="btn btn-link d-flex justify-content-between align-items-center" data-toggle="collapse" data-target="#faq-1" aria-expanded="true" aria-controls="faq-1" id="btn1"> 
+                 Как мне начать работать?
+                 <img src="img/plus.png" alt="plus" class="d-block plus-1">
+                </button>
+              </h5>
+            </div>
+            <div id="faq-1" class="collapse" aria-labelledby="heading-1" data-parent="#accordion">
+              <div class="card-body">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="heading-2">
+              <h5 class="mb-0">
+                <button class="btn btn-link collapsed d-flex justify-content-between align-items-center" data-toggle="collapse" data-target="#faq-2" aria-expanded="false" aria-controls="faq-2" id="btn2">
+                  Сколько я смогу зарабатывать?
+                  <img src="img/plus.png" alt="plus" class="d-block plus-2">
+                </button>
+              </h5>
+            </div>
+            <div id="faq-2" class="collapse" aria-labelledby="heading-2" data-parent="#accordion">
+              <div class="card-body">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="heading-3">
+              <h5 class="mb-0">
+                <button class="btn btn-link collapsed d-flex justify-content-between align-items-center" data-toggle="collapse" data-target="#faq-3" aria-expanded="false" aria-controls="faq-3" id="btn3">
+                  Где я смогу увидеть статистику продаж?
+                  <img src="img/plus.png" alt="plus" class="d-block plus-3">
+                </button>
+              </h5>
+            </div>
+            <div id="faq-3" class="collapse" aria-labelledby="heading-3" data-parent="#accordion">
+              <div class="card-body">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="heading-4">
+              <h5 class="mb-0">
+                <button class="btn btn-link collapsed d-flex justify-content-between align-items-center" data-toggle="collapse" data-target="#faq-4" aria-expanded="false" aria-controls="faq-4" id="btn4">
+                  Как я буду получать деньги?
+                  <img src="img/plus.png" alt="plus" class="d-block plus-4">
+                </button>
+              </h5>
+            </div>
+            <div id="faq-4" class="collapse" aria-labelledby="heading-4" data-parent="#accordion">
+              <div class="card-body">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="questions">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 m-auto">
+        <h2>Остались вопросы?</h2>
+        <p class="mt-1">Обратитесь к нам и мы ответим любой вопрос в течение суток.</p>
+        <form action="#" class="questions__form">
+          <div class="questions__form_inputs d-flex justify-content-between">
+            <div class="input d-flex align-items-center">
+              <img src="img/user.png" alt="user"><input name="name" type="text" placeholder="Имя">
+            </div>
+            <div class="input d-flex align-items-center">
+              <img src="img/telegram.png" alt="telegram"><input name="telegram" type="text" placeholder="Telegram">
+            </div>
+          </div>
+          <textarea name="message" placeholder="Сообщение"></textarea>
+          <div class="questions__form_submit d-flex align-items-center">
+            <button class="btn btn-1" type="submit">Отправить</button>
+            <p>Нажимая на кнопку, вы даете согласие на <a href="#">обработку персональных данных.</a></p>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+<footer class="footer d-flex">
+  <div class="footer__logo">
+    <a href="#">
+      <img src="img/logo-footer.png" alt="PROkassa" class="footer__logo_desk">
+      <img src="img/logo-m.png" alt="PROkassa" class="footer__logo_mob">
+    </a>
+  </div>
+  <div class="footer__info">
+    <div class="footer__contact d-flex">
+      <div class="footer__link">
+        <i class="fab fa-telegram-plane mr-3"></i><a href="tg://resolve?domain=enpaysupport">@enpaysupport</a>
+      </div>
+      <div class="footer__link">
+        <i class="fas fa-envelope mr-3"></i><a href="tg://resolve?domain=enpaysupport">enpaysupport@mail.ru</a>
+      </div>
+      <div class="credits">
+        <p>ООО "ПЛАТЕЖНЫЕ СИСТЕМЫ". ОГРН: 1201600054370</p>
+        <p>Уведомление об ответственности</p>
+      </div>
+    </div>
+    <div class="copyright d-flex justify-content-between">
+      <p>@PROkassa 2020</p>
+      <a href="#">Политика конфиденциальности</a>
+    </div>
+  </div>
+</footer>
+<button class="btn-full">Полная версия сайта</button>
+
+
+
+
+
+
+<!-- Authorization -->
+<div class="modal fade authorization" id="authorization" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <span aria-hidden="true"><img src="img/close.png" alt="close"></span>
+      </button>
+      <p class="modal-title">Авторизация</p>
+      <p class="modal-second-title">Авторизуйтесь, чтобы продолжить.</p>
+      <div class="input d-flex align-items-center">
+        <img src="img/telegram-m.png" alt="telegram">
+        <input type="text" name="auth_login" placeholder="Ник Telegram">
+      </div>
+      <div class="input d-flex align-items-center">
+        <img src="img/passwd-m.png" alt="password">
+        <input type="text" name="auth_password" placeholder="Пароль">
+      </div>
+      <div class="d-flex align-items-center justify-content-between mt-1">
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Запомнить меня</label>
+        </div>
+        <a href="#" class="psd">Забыли пароль?</a>
+      </div>
+      <div class="modal-btns d-flex justify-content-between">
+        <button class="btn btn-1">Войти</button>
+        <button class="btn btn-4">Регистрация</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Registration -->
+<div class="modal fade registration" id="registration" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <span aria-hidden="true"><img src="img/close.png" alt="close"></span>
+      </button>
+      <p class="modal-title">Регистрация</p>
+      <p class="modal-second-title">Это займет всего 1 минуту</p>
+      <div class="input d-flex align-items-center">
+        <img src="img/user-m.png" alt="user">
+        <input type="text" name="reg_name" placeholder="Имя">
+      </div>
+      <div class="input d-flex align-items-center">
+        <img src="img/telegram-m.png" alt="telegram">
+        <input type="text" name="reg_login" placeholder="Ник Telegram">
+      </div>
+      <div class="input d-flex align-items-center password">
+        <img src="img/passwd-m.png" alt="password">
+        <input type="password" id="password-input-1" name="reg_password_1" placeholder="Пароль">
+        <div class="view-password">
+          <img src="img/view.png" alt="view" class="view-1">
+          <img src="img/hide.png" alt="hide" class="hide-1">
+          <div>
+            <input type="checkbox" class="password-checkbox-1">
+          </div>
+        </div>
+      </div>
+      <div class="input d-flex align-items-center password">
+        <img src="img/passwd-m.png" alt="password">
+        <input type="password" id="password-input-2" name="reg_password_1" placeholder="Подтверждение пароля">
+        <div class="view-password">
+          <img src="img/view.png" alt="view" class="view-2">
+          <img src="img/hide.png" alt="hide" class="hide-2">
+          <div>
+            <input type="checkbox" class="password-checkbox-2">
+          </div>
+        </div>
+      </div>
+
+<script>
+$('body').on('click', '.password-checkbox-1', function(){
+  if ($(this).is(':checked')){
+    $('#password-input-1').attr('type', 'text');
+    $('.view-1').css('display', 'none');
+    $('.hide-1').css('display', 'block');
+  } else {
+    $('#password-input-1').attr('type', 'password');
+    $('.hide-1').css('display', 'none');
+    $('.view-1').css('display', 'block');
+  }
+}); 
+
+
+$('body').on('click', '.password-checkbox-2', function(){
+  if ($(this).is(':checked')){
+    $('#password-input-2').attr('type', 'text');
+    $('.view-2').css('display', 'none');
+    $('.hide-2').css('display', 'block');
+  } else {
+    $('#password-input-2').attr('type', 'password');
+    $('.hide-2').css('display', 'none');
+    $('.view-2').css('display', 'block');
+  }
+}); 
+</script>
+      <!-- reCAPTCHA -->
+      <img src="img/recaptcha.png" alt="recaptcha">  
+
+      <div class="modal-btns d-flex justify-content-between">
+        <button class="btn btn-1">Зарегистрироваться</button>
+        <button class="btn btn-4">Вход</button>
+      </div>
+      <span class="reg_add">Нажимая кнопку «Зарегистрироваться» вы даете согласие на <a href="#">обработку персональных данных.</a></span>
+    </div>
+  </div>
+</div>
+
+<!-- Recovery -->
+<div class="modal fade recovery" id="recovery" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <span aria-hidden="true"><img src="img/close.png" alt="close"></span>
+      </button>
+      <p class="modal-title">Восстановление пароля</p>
+      <div class="input d-flex align-items-center">
+        <img src="img/telegram-m.png" alt="telegram">
+        <input type="text" name="rec_login" placeholder="Ник Telegram">
+      </div>
+      <div class="modal-btns d-flex justify-content-between">
+        <button class="btn btn-1">Восстановить</button>
+        <button class="btn btn-4">Вход</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+<script>
+
+//открыть меню
+document.querySelector(".mobile-menu__btn").onclick = function() {
+  document.querySelector(".mobile-menu__container").classList.toggle('mobile-menu__item-active'); //добавляем высоту
+  document.querySelector(".mobile-menu__icon").classList.toggle('mobile-menu__icon-active'); //меняем бургер на крестик
+};
+
+//закрыть при клике на ссылку
+document.querySelectorAll(".mobile-menu__link").forEach(function (entry) {
+  entry.addEventListener("click", function (e) {
+    document.querySelector(".mobile-menu__container").classList.remove('mobile-menu__item-active'); //удаляем высоту
+    document.querySelector(".mobile-menu__icon").classList.remove('mobile-menu__icon-active'); //удаляем крестик из бургер меню
+  });
+});
+
+</script>
+
+
+
+
+
+<script>
+  $(function(){
+    $('#btn1').on('click', function(){
+        $('.plus-1').toggleClass('transform');
+    });
+
+    $('#btn2').on('click', function(){
+        $('.plus-2').toggleClass('transform');
+    });
+
+    $('#btn3').on('click', function(){
+        $('.plus-3').toggleClass('transform');
+    });
+
+    $('#btn4').on('click', function(){
+        $('.plus-4').toggleClass('transform');
+    });
+  });
+</script>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
+
+
+
+
